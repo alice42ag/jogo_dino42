@@ -1,0 +1,38 @@
+#gameArea{
+    background-color: rgb(199, 226, 250);
+    width: 1300px; /*largura*/
+    height: 400px; /*altura*/
+    border: 5px solid rgb(47, 133, 98);
+    position: absolute;
+    bottom: 10;
+}
+
+#nuvem { 
+    width: 200px;
+    height: 150px;
+}
+
+#dino{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+}
+
+
+#obstaculo{
+    background-color:rgb(52, 128, 145);
+    width: 15px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+  
+
+@keyframes jump{
+    0% {bottom: 0;}
+    50% {bottom: 250px;}
+    100% {bottom: 0;}
+}
